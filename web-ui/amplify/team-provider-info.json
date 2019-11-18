@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "weadmit-ui-dev-20191021180420-authRole",
+            "UnauthRoleArn": "arn:aws:iam::536335609904:role/weadmit-ui-dev-20191021180420-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::536335609904:role/weadmit-ui-dev-20191021180420-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "weadmit-ui-dev-20191021180420-deployment",
+            "UnauthRoleName": "weadmit-ui-dev-20191021180420-unauthRole",
+            "StackName": "weadmit-ui-dev-20191021180420",
+            "StackId": "arn:aws:cloudformation:us-east-2:536335609904:stack/weadmit-ui-dev-20191021180420/1bba1220-f3ff-11e9-98ba-027927fac094"
+        },
+        "categories": {
+            "auth": {
+                "weadmitui1f21206b": {}
+            }
+        }
+    }
+}

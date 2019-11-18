@@ -1,0 +1,17 @@
+{
+  "name": "aws-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create-api": "claudia create --region us-east-2  --api-module api --name weadmit-serverless  --profile weadmit",
+    "update-api": "claudia update --region us-east-2  --profile weadmit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "claudia-api-builder": "^4.1.1",
+    "node-fetch": "^2.6.0"
+  }
+}

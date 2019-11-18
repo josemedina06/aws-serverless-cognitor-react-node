@@ -1,0 +1,54 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "weadmit-ui-dev-20191021180420-authRole",
+			"UnauthRoleArn": "arn:aws:iam::536335609904:role/weadmit-ui-dev-20191021180420-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::536335609904:role/weadmit-ui-dev-20191021180420-authRole",
+			"Region": "us-east-2",
+			"DeploymentBucketName": "weadmit-ui-dev-20191021180420-deployment",
+			"UnauthRoleName": "weadmit-ui-dev-20191021180420-unauthRole",
+			"StackName": "weadmit-ui-dev-20191021180420",
+			"StackId": "arn:aws:cloudformation:us-east-2:536335609904:stack/weadmit-ui-dev-20191021180420/1bba1220-f3ff-11e9-98ba-027927fac094"
+		}
+	},
+	"auth": {
+		"weadmitui1f21206b": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/weadmit-ui-dev-20191021180420-deployment/amplify-cfn-templates/auth/weadmitui1f21206b-cloudformation-template.yml",
+				"logicalId": "authweadmitui1f21206b"
+			},
+			"lastPushTimeStamp": "2019-10-24T19:26:37.257Z",
+			"output": {
+				"AppClientSecret": "1h6trqrjg5g4h37f6m6mfoaasi7vuitppp44gvfg5r9ncfb4438m",
+				"UserPoolId": "us-east-2_UanHW7w5k",
+				"AppClientIDWeb": "5gjkom2c4itpd3bog4vjljo3oj",
+				"AppClientID": "6loni3ucv5maof5juro3g2jh1m",
+				"IdentityPoolId": "us-east-2:cd068ceb-9866-4df4-8b1a-46e8bca5575c",
+				"IdentityPoolName": "weadmitui1f21206b_identitypool_1f21206b__dev",
+				"UserPoolName": "weadmitui1f21206b_userpool_1f21206b"
+			},
+			"lastPushDirHash": "k80CnnDWPdSYFFYC+HToA69gt2I="
+		}
+	},
+	"hosting": {
+		"S3AndCloudFront": {
+			"service": "S3AndCloudFront",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/weadmit-ui-dev-20191021180420-deployment/amplify-cfn-templates/hosting/template.json",
+				"logicalId": "hostingS3AndCloudFront"
+			},
+			"lastPushTimeStamp": "2019-10-24T19:26:37.261Z",
+			"output": {
+				"S3BucketSecureURL": "https://weadmit-ui-20191025005449-hostingbucket-dev.s3.amazonaws.com",
+				"WebsiteURL": "http://weadmit-ui-20191025005449-hostingbucket-dev.s3-website.us-east-2.amazonaws.com",
+				"Region": "us-east-2",
+				"HostingBucketName": "weadmit-ui-20191025005449-hostingbucket-dev"
+			},
+			"lastPushDirHash": "cF26Cp2C816k1a94a2UhYsD9Cx4="
+		}
+	}
+}

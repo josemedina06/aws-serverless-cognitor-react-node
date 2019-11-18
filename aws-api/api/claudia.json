@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "weadmit-serverless-executor",
+    "name": "weadmit-serverless",
+    "region": "us-east-2"
+  },
+  "api": {
+    "id": "sgptromrf1",
+    "module": "api"
+  }
+}

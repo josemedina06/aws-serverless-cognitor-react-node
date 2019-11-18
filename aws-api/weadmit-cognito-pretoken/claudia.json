@@ -1,0 +1,7 @@
+{
+  "lambda": {
+    "role": "weadmit-cognito-pretoken-executor",
+    "name": "weadmit-cognito-pretoken",
+    "region": "us-east-2"
+  }
+}

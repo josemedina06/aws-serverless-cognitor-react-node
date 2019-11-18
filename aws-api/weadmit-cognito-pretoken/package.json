@@ -1,0 +1,13 @@
+{
+  "name": "weadmit-cognito-pretoken",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create-api": "claudia create --region us-east-2 --handler index.handler --profile weadmit",
+    "update-api": "claudia update --region us-east-2 --handler index.handler --profile weadmit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

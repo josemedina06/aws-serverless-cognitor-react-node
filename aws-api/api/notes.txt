@@ -1,0 +1,6 @@
+Initial Setup
+    Make sure aws credentials are well set with profile name @ vi ~/.aws/credentials 
+    Edit the claudia commands to reflect the new aws credentials and profile name
+    npm install
+    npm install claudia -g
+    npm run create-api

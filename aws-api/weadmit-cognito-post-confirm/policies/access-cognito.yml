@@ -1,0 +1,5 @@
+iamRoleStatements:
+- Action:
+    - cognito-idp:AdminGetUser
+  Resource: ${self:custom.extra.cognito.userPoolArn}
+  Effect: Allow

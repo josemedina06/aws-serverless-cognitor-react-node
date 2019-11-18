@@ -1,0 +1,7 @@
+{
+  "lambda": {
+    "role": "weadmit-cognito-post-confirm-executor",
+    "name": "weadmit-cognito-post-confirm",
+    "region": "us-east-2"
+  }
+}
