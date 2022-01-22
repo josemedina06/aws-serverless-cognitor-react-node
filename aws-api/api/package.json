@@ -12,6 +12,6 @@
   "license": "MIT",
   "dependencies": {
     "claudia-api-builder": "^4.1.1",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^3.1.1"
   }
 }
